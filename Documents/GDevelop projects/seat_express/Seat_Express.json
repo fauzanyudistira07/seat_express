@@ -1,0 +1,963 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 245,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.solu.Seat_Express",
+    "pixelsRounding": true,
+    "projectUuid": "989ccba6-1fb3-48f7-8e9e-0ae23ffed5d4",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "scaleOuter",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Seat_Express",
+    "description": "",
+    "author": "Fauzan Yudistira",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "icon.png",
+      "android-icon-192": "icon.png",
+      "android-icon-36": "icon.png",
+      "android-icon-48": "icon.png",
+      "android-icon-72": "icon.png",
+      "android-icon-96": "icon.png",
+      "android-windowSplashScreenAnimatedIcon": "icon.png",
+      "desktop-icon-512": "icon.png",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": false,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "Group 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Rectangle 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 43.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 44.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 50.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Rectangle 36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 49.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 27 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 27 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 83.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 83.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Asset 2@2x 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 2@2x 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 193.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 193.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Group 194.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Group 194.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 195.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 195.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Group 10.png\",\"extension\":\".png\"}",
+        "name": "Group 10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 11 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 11 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Group 9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Group 9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 12 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 12 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 23.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Group 23.png\",\"extension\":\".png\"}",
+        "name": "Group 23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 52.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "soal.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "soal.json",
+        "userAdded": false
+      },
+      {
+        "file": "JungleAdventurer.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "JungleAdventurer.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/02.png\"}",
+        "name": "02",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "03",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "04",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/05.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "05",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/06.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "06",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 195 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 195 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ellipse 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ellipse 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 81.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 81.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 196.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 196.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 79.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 79.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 197.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 197.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 198.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 198.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Pengaturan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pengaturan.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 199.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 199.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Vector (5).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Vector (5).png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Vector (5).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 200.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 200.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 202.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 203.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 203.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BGM - Menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BGM - Menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "BGM - Gameplay.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BGM - Gameplay.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Start Button.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Start Button.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Button.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Back Button.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Back Button.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Interior Kereta Loop.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Interior Kereta Loop.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Kereta Berhenti.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kereta Berhenti.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Drag.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Drag.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Drop.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Drop.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Kereta berangkat.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kereta berangkat.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "home.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "volume_musik",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "volume_sfx",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "volume_kereta",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/home_screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameplay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menang"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pengaturan"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/bgm"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/jsonresourceloader"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/draggablephysics"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    }
+  ],
+  "externalLayouts": []
+}

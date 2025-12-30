@@ -1,0 +1,151 @@
+{
+  "associatedLayout": "home_screen",
+  "name": "bgm",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "ganti_musik",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "BGM - Menu.wav",
+            "1",
+            "yes",
+            "40",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "ganti_musik",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "BGM - Gameplay.wav",
+            "2",
+            "yes",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "volume_musik"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "volume_musik"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "3",
+            "=",
+            "volume_sfx"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "4",
+            "=",
+            "volume_kereta"
+          ]
+        }
+      ]
+    }
+  ]
+}
